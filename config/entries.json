@@ -10,5 +10,8 @@
   ],
   "Lesson_12": [
     "./src/Lesson_12/Lesson_12.js"
+  ],
+  "homeTask_11": [
+    "./src/homeTask_11/homeTask_11.js"
   ]
 }

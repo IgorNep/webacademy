@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/homeTask_11/homeTask_11.scss"],"names":[],"mappings":"AAAA;AACA;AACA,eAAe","file":"homeTask_11.css","sourcesContent":[".btn {\n  width: 100px;\n  height: 40px; }\n"],"sourceRoot":""}

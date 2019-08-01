@@ -1,0 +1,13 @@
+body {
+  text-align: center; }
+
+.btn {
+  border-radius: 10px;
+  margin: 50px auto;
+  text-transform: uppercase;
+  background: orange;
+  color: black;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 20px; }
