@@ -1,0 +1,23 @@
+.lighter{
+  width: 80px;
+  border:1px solid grey;
+  &__light{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+}
+.lighter__light_red.active{
+  background:red;  
+}
+.lighter__light_yellow.active{
+  background:yellow;  
+}
+.lighter__light_green.active{
+  background:green;  
+}
+.flexing{
+  display: flex;
+}

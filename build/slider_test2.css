@@ -1,0 +1,92 @@
+.main-block {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  margin: 20px auto 0 auto; }
+
+.header {
+  width: inherit;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  border: 5px solid grey;
+  box-sizing: border-box; }
+
+.content {
+  width: inherit;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.btn1 {
+  font-size: 92px;
+  font-weight: bold;
+  cursor: pointer;
+  color: grey;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  left: -60px;
+  top: -250px; }
+
+.btn1:hover {
+  opacity: 0.5; }
+
+.btn2 {
+  font-size: 92px;
+  font-weight: bold;
+  cursor: pointer;
+  color: grey;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  right: -60px;
+  top: -250px; }
+
+.btn2:hover {
+  opacity: 0.5; }
+
+.point-block {
+  width: 500px;
+  height: 100px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+  cursor: pointer; }
+
+.point.active {
+  background: grey; }
+
+.point:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -3px;
+  left: -3px; }
+
+.slide {
+  min-width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  border: 1px solid green;
+  font-size: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: transform 1s ease;
+  cursor: pointer; }
+
+
+/*# sourceMappingURL=slider_test2.css.map*/

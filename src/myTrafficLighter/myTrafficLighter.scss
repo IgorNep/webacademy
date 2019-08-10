@@ -1,0 +1,24 @@
+.lights{
+  width: 80px;
+ 
+  border:1px solid grey;
+}
+
+.light{
+  width:80px;
+  height: 80px;
+  border-radius:50%;
+
+}
+.block{
+  display: flex;
+}
+.light_yellow.active{
+  background: yellow;
+}
+.light_red.active{
+  background: red;
+}
+.light_green.active{
+  background:green;
+}

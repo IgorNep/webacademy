@@ -13,5 +13,29 @@
   ],
   "homeTask_11": [
     "./src/homeTask_11/homeTask_11.js"
+  ],
+  "Lesson_13": [
+    "./src/Lesson_13/Lesson_13.js"
+  ],
+  "Lesson_12_lighter": [
+    "./src/Lesson_12_lighter/Lesson_12_lighter.js"
+  ],
+  "myTrafficLighter": [
+    "./src/myTrafficLighter/myTrafficLighter.js"
+  ],
+  "Lighter_2": [
+    "./src/Lighter_2/Lighter_2.js"
+  ],
+  "testLightr_1": [
+    "./src/testLightr_1/testLightr_1.js"
+  ],
+  "testLightr_2": [
+    "./src/testLightr_2/testLightr_2.js"
+  ],
+  "slider_test1": [
+    "./src/slider_test1/slider_test1.js"
+  ],
+  "slider_test2": [
+    "./src/slider_test2/slider_test2.js"
   ]
 }

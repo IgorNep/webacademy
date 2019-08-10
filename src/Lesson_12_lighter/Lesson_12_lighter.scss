@@ -1,0 +1,34 @@
+.traffic-lighter {
+  width: 80px;
+  border: 1px solid grey;
+  &__light {
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+
+    &_red {
+      &.active {
+        background-color: red;
+      }
+    }
+    &_yellow {
+      &.active {
+        background-color: yellow;
+      }
+    }
+    &_green {
+      &.active {
+        background-color: green;
+      }
+    }
+  }
+  
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  width: 500px;
+  height: 160px;
+  border:1px solid green;
+}
