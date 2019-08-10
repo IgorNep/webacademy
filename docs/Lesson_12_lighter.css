@@ -13,5 +13,12 @@
     .traffic-lighter__light_green.active {
       background-color: green; }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 500px;
+  height: 160px;
+  border: 1px solid green; }
 
-/*# sourceMappingURL=Lesson_12.css.map*/
+
+/*# sourceMappingURL=Lesson_12_lighter.css.map*/

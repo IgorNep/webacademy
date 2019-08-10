@@ -106,9 +106,8 @@ body.appendChild(btn);
 body.appendChild(btn2);
 
 btn.onclick = function addPar() {
-  let userParagraph = prompt('Введите текст');
   var par = document.createElement('p');
-  par.appendChild(document.createTextNode(userParagraph));
+  par.appendChild(document.createTextNode(' Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officia minus eveniet nesciunt officiis quas placeat voluptate optio incidunt numquam ab nostrum aut tenetur sapiente, ratione vitae tempora esse! Possimus?'));
   body.appendChild(par);
 };
 

@@ -1,0 +1,133 @@
+.main-block {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative; }
+
+.header {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  font-size: 192px;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 5px solid grey; }
+
+.buttons {
+  width: 600px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.btn {
+  width: 70px;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: -250px;
+  right: -90px;
+  cursor: pointer;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 92px; }
+
+.btn:hover {
+  transition: color 0.5s ease;
+  color: #000; }
+
+.btn2 {
+  width: 70px;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: -250px;
+  left: -90px;
+  cursor: pointer;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 92px; }
+
+.btn2:hover {
+  transition: color 0.5s ease;
+  color: #000; }
+
+.section3 {
+  background: green;
+  min-width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section2 {
+  background: pink;
+  min-width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section {
+  background: yellow;
+  min-width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section4 {
+  background: red;
+  min-width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.section5 {
+  background: orange;
+  min-width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.move {
+  transform: translateX(-200px); }
+
+.checkpoints {
+  width: 120px;
+  display: flex;
+  margin: 50px auto; }
+
+.checkPoint {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+  position: relative; }
+
+.checkPoint:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -3px;
+  left: -3px; }
+
+.checkPoint.active {
+  background: grey; }
+
+
+/*# sourceMappingURL=slider_test1.css.map*/
